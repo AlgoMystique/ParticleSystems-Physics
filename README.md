@@ -10,7 +10,7 @@ Check out the live demo [here](https://algomystique.github.io/ParticleSystems-Ph
 ## Features
 
 - **Fully Responsive Canvas**: Ensures the canvas adjusts dynamically to different screen sizes while maintaining functionality.
-- **Particle Interaction**: Particles respond to mouse events, such as hovering or clicking, with realistic movement and collisions.
+- **Particle Interaction**: Particles respond to mouse events, such as clicking, with realistic movement and collisions.
 - **Physics-Based Movement**: Acceleration and friction are applied to particles for smooth, realistic motion.
 
 ## How Physics is Applied
@@ -19,13 +19,13 @@ Check out the live demo [here](https://algomystique.github.io/ParticleSystems-Ph
 Each particle's velocity increases over time due to acceleration. This simulates the effect of an external force (like gravity or user interaction). The velocity is updated every frame based on acceleration values.
 
 **Formula:**
-\[ \text{velocity} += \text{acceleration} \]
+[ {velocity} += {acceleration} ]
 
 ### Friction
 To simulate natural resistance (such as air drag), friction is applied, slowing down the particles over time. This gives a more realistic motion, preventing particles from moving indefinitely or too fast.
 
 **Formula:**
-\[ \text{velocity} *= \text{friction\_coefficient} \]
+[ {velocity} *= {friction_coefficient} ]
 
 A friction coefficient slightly less than 1 (e.g., 0.98) is used to gradually reduce the particle's speed.
 
@@ -34,12 +34,12 @@ A friction coefficient slightly less than 1 (e.g., 0.98) is used to gradually re
 - **Distance Calculation**: Determines the distance between two points on the canvas to trigger proximity-based behaviors (e.g., attraction, repulsion).
   
   **Formula:**
-  \[ \text{distance} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} \]
+  [ {distance} = sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} ]
   
 - **Direction of Push**: Used for interactive effects where the particles react to user input by "pushing" particles away or attracting them.
   
   **Formula:**
-  \[ \text{angle} = \text{Math.atan2}(dy, dx) \]
+  [ {angle} = {Math.atan2}(dy, dx)]
 
 ## How It Works
 
