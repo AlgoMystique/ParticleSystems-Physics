@@ -33,7 +33,7 @@ A friction coefficient slightly less than 1 (e.g., 0.98) is used to gradually re
 
 - **Distance Calculation**: Determines the distance between two points on the canvas to trigger proximity-based behaviors (e.g., attraction, repulsion).
   
-  **Formula:Pythagorean theorem*
+  **Formula:Pythagorean theorem**
   
   [{distance} = sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} ]
   
