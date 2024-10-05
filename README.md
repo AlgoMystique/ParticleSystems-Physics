@@ -52,3 +52,6 @@ A friction coefficient slightly less than 1 (e.g., 0.98) is used to gradually re
 HTML5 Canvas
 CSS3
 Vanilla JavaScript
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
