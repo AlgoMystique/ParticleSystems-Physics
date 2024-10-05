@@ -6,22 +6,22 @@ This repository demonstrates how to create a particle system using HTML5 canvas 
 
 Check out the live demo [here](https://algomystique.github.io/ParticleSystems-Physics)
 
-## Features
+## Features-
 
 - **Fully Responsive Canvas**: Ensures the canvas adjusts dynamically to different screen sizes while maintaining functionality.
 - **Particle Interaction**: Particles respond to mouse events, such as clicking, with realistic movement and collisions.
 - **Physics-Based Movement**: Acceleration and friction are applied to particles for smooth, realistic motion.
 
-## How Physics is Applied
+## How Physics is Applied-
 
-### Acceleration
+- ### Acceleration:
 
 Each particle's velocity increases over time due to acceleration. This simulates the effect of an external force (like gravity or user interaction). The velocity is updated every frame based on acceleration values.
 
 **Formula:**
 [ {velocity} += {acceleration} ]
 
-### Friction
+- ### Friction:
 To simulate natural resistance (such as air drag), friction is applied, slowing down the particles over time. This gives a more realistic motion, preventing particles from moving indefinitely or too fast.
 
 **Formula:*
@@ -29,7 +29,7 @@ To simulate natural resistance (such as air drag), friction is applied, slowing 
 
 A friction coefficient slightly less than 1 (e.g., 0.98) is used to gradually reduce the particle's speed.
 
-## Key Concepts
+## Key Concepts-
 
 - **Distance Calculation**: Determines the distance between two points on the canvas to trigger proximity-based behaviors (e.g., attraction, repulsion).
   
@@ -42,7 +42,7 @@ A friction coefficient slightly less than 1 (e.g., 0.98) is used to gradually re
   **Formula:**
   [ {angle} = {Math.atan2}(dy, dx)]
 
-## How It Works
+## How It Works-
 
 **Canvas Setup:** A responsive HTML5 canvas is initialized, and particles are randomly generated with positions, velocities, and accelerations.
 
@@ -52,13 +52,13 @@ A friction coefficient slightly less than 1 (e.g., 0.98) is used to gradually re
 
 **Mouse Interaction:** When the user moves the mouse or clicks on the canvas, the particles react by accelerating away or towards the pointer.
 
-## Technologies Used
+## Technologies Used-
 
-HTML5 Canvas
+- HTML5 Canvas
 
-CSS3
+- CSS3
 
-Vanilla JavaScript
+- Vanilla JavaScript
 
 ## License
 
