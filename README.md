@@ -2,9 +2,6 @@
 
 This repository demonstrates how to create a particle system using HTML5 canvas and vanilla JavaScript, incorporating acceleration and friction based on real-world physics. The particles react to mouse movement and other interactions, simulating natural behavior using fundamental physics principles.
 
-## Screenshot
-![ParticleSystems Screenshot](screenshot.png)
-
 ## ## Live Demo
 Check out the live demo [here](https://algomystique.github.io/ParticleSystems-Physics)
 ## Features
