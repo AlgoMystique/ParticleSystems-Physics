@@ -1,4 +1,4 @@
-# Particle Systems with Acceleration and Friction (Vanilla JavaScript)
+# Particle Systems with Acceleration and Friction.
 
 This repository demonstrates how to create a particle system using HTML5 canvas and vanilla JavaScript, incorporating acceleration and friction based on real-world physics. The particles react to mouse movement and other interactions, simulating natural behavior using fundamental physics principles.
 
