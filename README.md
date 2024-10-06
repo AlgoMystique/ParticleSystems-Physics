@@ -60,6 +60,8 @@ A friction coefficient slightly less than 1 (e.g., 0.98) is used to gradually re
 
 - Vanilla JavaScript
 
-## License
+## Resources
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project was inspired by concepts learned in the "Creative Coding in JS - Masterclass" by Frank Dvorak on Udemy.
+
+Find his Udemy Course here: [Udemy Course](https://www.udemy.com/user/frantisek-dvorak)
