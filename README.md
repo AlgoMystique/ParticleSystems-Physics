@@ -2,7 +2,7 @@
 
 This repository demonstrates a particle system created using HTML5 canvas and vanilla JavaScript, incorporating acceleration and friction based on real-world physics. The particles react to mouse click..
 
-## ## Live Demo
+## Live Demo
 
 Check out the live demo [here](https://algomystique.github.io/ParticleSystems-Physics)
 
@@ -14,14 +14,14 @@ Check out the live demo [here](https://algomystique.github.io/ParticleSystems-Ph
 
 ## How Physics is Applied-
 
-- ### Acceleration:
+- ## Acceleration:
 
 Each particle's velocity increases over time due to acceleration. This simulates the effect of an external force (like gravity or user interaction). The velocity is updated every frame based on acceleration values.
 
 **Formula:**
 [ {velocity} += {acceleration} ]
 
-- ### Friction:
+- ## Friction:
 To simulate natural resistance (such as air drag), friction is applied, slowing down the particles over time. This gives a more realistic motion, preventing particles from moving indefinitely or too fast.
 
 **Formula:*
