@@ -6,6 +6,8 @@ This repository demonstrates a particle system created using HTML5 canvas and va
 
 Check out the live demo [here](https://algomystique.github.io/ParticleSystems-Physics)
 
+![Sprite Animation Game](yellow.gif) 
+
 ## Features:
 
 - **Fully Responsive Canvas**: Ensures the canvas adjusts dynamically to different screen sizes while maintaining functionality.
